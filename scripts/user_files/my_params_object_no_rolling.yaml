@@ -252,6 +252,9 @@ FIXED_NUMBER_OF_IMAGES_IN_POLAR_SEQUENCE: 0
 # [S]outh and [N]orth polarimetric beams
 CATALOG_BEAM_IDS: ["S","N"]
 
+# Default displacement in pixels between the ordinary and extraordinary beams:
+POLAR_PAIRS_DIST: 43
+
 # tolerance for matching pairs in polarimetric images (units of pixels)
 MATCH_PAIRS_TOLERANCE: 3.0
 # Set angular sampling of the model in units of degrees
@@ -278,7 +281,7 @@ COMPUTE_K_IN_L4: True
 FIT_ZERO_OF_WPPOS_IN_L4: False
 
 # Set "zero" of waveplate for CHANNELS=[1,2,3,4]; calibrated from the circularly polarized standard WD 1036-204 observed on 20250224
-ZERO_OF_WAVEPLATE: [28.2,27.2,27.2,30.2]
+ZERO_OF_WAVEPLATE: [27.2,26.5,28.3,29.0]
 
 # Plot polarimetry fit
 PLOT_POLARIMETRY_FIT: True
